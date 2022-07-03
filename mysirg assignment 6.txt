@@ -1,0 +1,10 @@
+Ans=1  main() { int x; float y; char z='a'; double a; printf("%c %d %f %lf",sizeof(z),sizeof(x),sizeof(y),sizeof(a))};
+Ans=2  main() { int n,lastdi; scanf("%d",&n); lastdi=n%10; printf("%d ",lastdi); }
+Ans=3  main() { int firstdi, n;scanf("%d",&n); firstdi=n/10;printf("%d ",firstdi); }
+Ans=4  main() { int mid, n; scanf("%d",&n); n=n/10; mid=n%10; printf("%d ",mid); }
+Ans=5  main() { int int a,b,c; scanf("%d%d",&a,&b); c=a; a=b; b=c; printf("%d "c); }
+Ans=6  main() { int a,b; scanf("%d%d",&a,&b); a=a+b; b=a-b; printf("%d %d",a,b);}
+Ans=7  main() { int n=2345,m; m=n%10; n=n*10; printf("%d ",n); } 
+Ans=8  main() { int n=234,m; scanf("%d",&m); n=(n*10)+m; printf("%d ",n); }
+Ans=9  main() {
+Ans=10 main() { int a,b,c,n,t; scanf("%d",&n); t=n%10;n/=10; a=n%10;n/=10; b=n%10;n/=10; c=(t*100)+(a*1)+(b*10); printf("%d ",c); }
